@@ -20,3 +20,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/usuarios',[UsuarioController::class,'index']);
+Route::prefix('/usuario')->group(function(){
+    Route::get('/',[UsuarioController::class,'store']);
+    Route::post('/usuario/{id}',[UsuarioController::class,'show']);
+    Route::put('/usuario/{id}',[UsuarioController::class,'update']);
+    Route::delete('/usuario/{id}',[UsuarioController::class,'destroy']);
+});
