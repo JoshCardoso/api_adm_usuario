@@ -5,4 +5,4 @@ link to route documentation:
 * https://documenter.getpostman.com/view/30404082/2s9YRCXBWP#6514c75b-7fff-42bf-9a38-b5fcccc8b329
 
 image database:
-<img src="/resources/image/Banco de Dados.png" width="800" alt="Data Base">
+<img src="BancoDeDados.png" width="800" alt="Data Base">
